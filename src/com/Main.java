@@ -12,11 +12,10 @@ public class Main {
 		Student s3=new Student(104,"Muskan",100.1,18);
 		Student s4=new Student(102,"Anju",99,28);
 		Student s5=new Student(105,"Vishnu",98,30);
-		s.add(s1);
-		s.add(s2);
-		s.add(s3);
-		s.add(s4);
-		s.add(s5);
+		for(int i=1;i<6;i++){
+			String ss="s"+i;
+			s.add(ss);
+		}
 		System.out.println(c.findOddStudentForMarks(s));
 
 	}
