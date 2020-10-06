@@ -1,5 +1,6 @@
 package com;
 
+//Casual extends super class Typist
 public class Casual extends Typist {
 	float daily_wages;
 
